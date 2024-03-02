@@ -42,8 +42,24 @@ button:active{
 }
 
 .row{
-    margin-bottom: 10px;
+    /* width: 900px;
+    height: 500px; */
+    /* centrar row con flexbox */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    margin: 0px auto;
+    margin-top: 10px;
 }
 .input-area{
     margin: 30px;
+}
+
+#error {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    display: none;
+
 }
